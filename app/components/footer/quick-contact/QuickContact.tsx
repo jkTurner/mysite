@@ -48,6 +48,7 @@ const QuickContact = () => {
                             className={styles.form_input} 
                             value={fullName}
                             onChange={(e) => setFullName(e.target.value)}
+                            required
                         />
                         <input 
                             type="email" 
@@ -56,6 +57,7 @@ const QuickContact = () => {
                             className={styles.form_input} 
                             value={contactEmail}
                             onChange={(e) => setContactEmail(e.target.value)}
+                            required
                         />
                     </div>
                     <textarea 
@@ -64,6 +66,7 @@ const QuickContact = () => {
                         className={styles.form_input_message}
                         value={message}
                         onChange={(e) => setMessage(e.target.value)}
+                        required
                     />
                     <button type="submit" className={styles.send_button}>
                         <span className={styles.send_button_text}>Send</span>
