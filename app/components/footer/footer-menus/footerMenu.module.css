@@ -1,0 +1,29 @@
+.copyright {
+    color: white;
+    border-top: 1px solid #67686d;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.footer_menu {
+    /* display: grid;
+    width: 100%;
+    grid-auto-flow: row;
+    place-items: start;
+    column-gap: 1rem;
+    row-gap: 2.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem; */
+}
+
+@media (max-width: 768px) {
+    /* .footer_menu {
+        display: flex;
+    } */
+}
+
+@media (max-width: 450px) {
+    .footer_container {
+        font-size: 12px;
+    }
+}

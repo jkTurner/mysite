@@ -1,0 +1,24 @@
+.icons_container {
+    margin-top: 20px;
+    padding: 0 20px;
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    justify-content: center;
+    justify-content: space-between;
+    justify-self: center;
+    /* background-color: skyblue; */
+}
+
+.icons_des {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 200;
+}
+.icons_des p {
+    font-size: 14px;
+    margin-top: 10px;
+}

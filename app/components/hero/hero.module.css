@@ -1,0 +1,100 @@
+.hero_bg {
+    height: 540px;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.8), rgba(4,9,30,0.8)), url('/images/banner13.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.hero_container {
+    display: flex;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 24px;
+    padding: 0 20px;
+}
+
+.hero_text {
+    display: block;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    color: white;
+}
+
+.hero_text span {
+    font-weight: 100;
+}
+
+.hero_bg p {
+    color: white;
+    font-weight: 200;
+    text-align: center;
+    max-width: 580px;
+}
+
+.hero_btn {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    overflow: hidden;
+    width: 200px;
+    justify-self: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.hero_btn_text {
+    position: relative;
+    z-index: 1;
+}
+.hero_btn_fx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(to right, #926f34, #dfbd69);
+    transition: width 0.4s ease;
+}
+.hero_btn:hover .hero_btn_fx {
+    width: 100%;
+}
+
+@media (max-width: 1279px) {
+    .hero_text {
+        display: block;
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 1.2;
+        text-align: center;
+        color: white;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero_text {
+        display: block;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 1.2;
+        text-align: center;
+        color: white;
+    }
+    .hero_bg p {
+        color: white;
+        font-size: 14px;
+        font-weight: 200;
+        text-align: center;
+        max-width: 580px;
+    }
+}

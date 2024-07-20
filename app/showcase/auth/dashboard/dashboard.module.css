@@ -1,0 +1,36 @@
+
+.profile_image_container {
+    display: flex;
+    /* position: relative; */
+    /* width: 200px; */
+    /* background-color: red; */
+}
+
+.profile_image {
+    object-fit: cover;
+    object-position: center top;
+    overflow: hidden;
+    height: auto;
+    border-radius: 100%;
+    overflow-clip-margin: unset;
+}
+
+.thumbnail_image_container {
+    position: relative;
+    display: flex;
+    height: 120px;
+    aspect-ratio: 7/5;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.thumbnail_image {
+    object-fit: cover;
+    overflow: hidden;
+    overflow-clip-margin: unset;
+}
+.category {
+    padding: 6px 8px;
+    background-color: var(--bgSub);
+    border-radius: 6px;
+    font-size: 13px;
+}

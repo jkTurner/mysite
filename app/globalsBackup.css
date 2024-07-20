@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bgMain: #E7E7E7;
+  --bgSub: #F5F5F5;
+  --bgHeader: #18212C;
+  --inputHeader: #495768;
+  --textMain: #32353A;
+  --textHero: #000;
+  --textDetails: #777b83;
+  --line: #FFF;
+  --gradientGold: linear-gradient(to right, #926f34, #dfbd69);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bgMain: #1e2025;
+    --bgSub: #2b2e35;
+    --textMain: #aeb2b9;
+    --textHero: #FFF;
+    --line: #40424d;
+    --bgHeader: #131b25;
+    --inputHeader: #383f49;
+  }
+}
+
+body {
+    color: var(--textMain);
+    background-color: var(--bgMain);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-weight: 400;
+  color: var(--textDetails);
+}
+
+input, textarea, select {
+  outline: none;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.bgHeader {
+  background-color: var(--bgHeader);
+}
+
+.textHero {
+  color: var(--textHero);
+}
+
+.bgMain {
+  background-color: var(--bgMain);
+}

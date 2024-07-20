@@ -1,0 +1,75 @@
+.form_container {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-top-width: 4px;
+    border-color: hsl(var(--custom));
+    border-radius: 8px;
+    padding: 20px;
+    background-color: var(--bgSub);
+    min-width: 320px;
+    max-width: 350px;
+}
+
+.form_input {
+    background-color: var(--bgMain);
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+.form_input::placeholder {
+    color: #4e5052;
+    opacity: 1;
+}
+
+.google_login {
+    margin-top: 14px;
+    width: 100%;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bgMain);
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.google_login_text {
+    font-size: 13px;
+    color: var(--textMain);
+}
+
+.login_button {
+    background-color: hsl(var(--custom));
+    color: white;
+    font-size: 14px;
+    padding: 6px 0;
+    border-radius: 4px;
+}
+
+.notes {
+    font-size: 13px;
+    text-align: center;
+    text-align: justify;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    min-width: 300px;
+    max-width: 320px;
+}
+
+.details_container {
+    max-width: 550px;
+    /* margin-bottom: 28px; */
+}
+
+.details_text {
+    text-align: justify;
+    font-size: 13px;
+    /* background-color: blueviolet; */
+    padding: 0 14px;
+}
+.details_text div {
+    margin-bottom: 16px;
+}
+.details_text div:last-child {
+    margin-bottom: 0;
+}
