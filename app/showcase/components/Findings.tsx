@@ -37,7 +37,7 @@ const Findings = () => {
                     </thead>
                     <tbody>
                         {findingsData.map((finding, index) => (
-                            <tr key={finding.topic} className="hover">
+                            <tr key={finding.topic} className="text-[var(--textDetails)] border-none hover:bg-[var(--jkAccent)] hover:text-white">
                                 {/* <th>{index + 1}</th> */}
                                 <td>{finding.topic}</td>
                                 <td>{finding.description}</td>

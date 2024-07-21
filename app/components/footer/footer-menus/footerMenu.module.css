@@ -1,19 +1,23 @@
 .copyright {
     color: white;
-    border-top: 1px solid #67686d;
+    border-top: 1px solid #505155;
     padding-top: 20px;
     font-size: 12px;
 }
 
-.footer_menu {
-    /* display: grid;
+/* .footer_menu_container {
+    display: grid;
     width: 100%;
     grid-auto-flow: row;
     place-items: start;
     column-gap: 1rem;
     row-gap: 2.5rem;
     font-size: 0.875rem;
-    line-height: 1.25rem; */
+    line-height: 1.25rem;
+} */
+.footer_menu_container {
+    width: 100%;
+    flex-grow: 1;
 }
 
 @media (max-width: 768px) {
@@ -23,7 +27,7 @@
 }
 
 @media (max-width: 450px) {
-    .footer_container {
+    .footer_menu_container {
         font-size: 12px;
     }
 }

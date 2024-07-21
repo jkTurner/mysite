@@ -1,11 +1,12 @@
 .bg_full {
     display: flex;
+    flex-direction: column;
     width: 100%;
     margin: 0 auto;
     background-color: var(--bgHeader);
-    color: white;
+    /* color: white; */
     font-size: 13px;
-    height: 320px;
+    /* height: 320px; */
     /* min-height: 100px; */
 }
 
@@ -23,12 +24,12 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 @media (max-width: 1000px) {
     .bg_full {
-        height: 600px;
+        /* height: 600px; */
     }
     .footer_content_container {
         flex-direction: column;

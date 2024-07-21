@@ -15,6 +15,7 @@
     --line: #FFF;
     --lineTint: #c4c4c4;
     --jkAccent: #004285;
+    --jkGold: #dbbb6b;
     --gradientGold: linear-gradient(to right, #926f34, #dfbd69);
 
     --custom: 210 100% 26%;
@@ -106,6 +107,7 @@ html {
     --bgHeader: #131b25;
     --inputHeader: #383f49;
     --jkAccent: #dbbb6b;
+    --jkGold: #dbbb6b;
 
     --custom: 43 61% 64%;
   }

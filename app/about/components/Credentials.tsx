@@ -54,11 +54,11 @@ const Credentials = () => {
 
     return (
         <div className="mb-5 mt-3">
-            <h3 className="font-bold mb-4 ml-3">Credentials:</h3>
+            <h3 id="credentials" className="font-bold mb-4 ml-3">Credentials:</h3>
             <div className="overflow-x-auto">
                 <table className="table">
                     <thead>
-                        <tr>
+                        <tr className="border-line">
                             <th></th>
                             <th>Title</th>
                             <th>Issuer</th>
@@ -67,7 +67,7 @@ const Credentials = () => {
                     </thead>
                     <tbody>
                         {credentialsData.map((credential, index) => (
-                            <tr key={credential.id} className="hover">
+                            <tr key={credential.id} className="border-line hover:bg-[var(--jkAccent)] hover:text-white">
                                 <th>{index + 1}</th>
                                 <td>{credential.title}</td>
                                 <td>{credential.issuer}</td>

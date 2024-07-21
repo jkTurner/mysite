@@ -1,3 +1,4 @@
+import FooterCopyright from "./footer-menus/FooterCopyright";
 import FooterMenus from "./footer-menus/FooterMenus";
 import FooterMenusB from "./footer-menus/FooterMenusB";
 import styles from "./footer.module.css"
@@ -10,13 +11,16 @@ const Footer = () => {
             <div className={`${styles.footer_container}`}>
 
                 <div className={`${styles.footer_content_container}`}>
-                {/* <div className="grid grid-cols-2"> */}
                 
                     <QuickContact />
 
-                    {/* <FooterMenus /> */}
-
                     <FooterMenusB />
+                    {/* <div className="bg-red-800 w-max flex flex-grow">
+                        <p>
+                            Fuck it
+                        </p>
+                    </div> */}
+
                 </div>
             </div>
         </div>

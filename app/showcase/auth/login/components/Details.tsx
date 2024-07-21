@@ -35,7 +35,7 @@ export default function Details() {
         {/* <div className="rounded-md px-4 py-2 text-sm text-justify"> */}
         <div className={styles.details_text}>
           <div>
-            The creation of this login form showcases my skills in building secure and user-friendly authentication systems using React, Next.js, and NextAuth.
+            The creation of this login form showcases my skills in building secure and user-friendly authentication systems using React, Next.js, NextAuth, and Prisma Client.
           </div>
           <div>
             To start, I set up state variables for the email and password input fields using the useState hook. This allows the form to keep track of user input in real-time.
