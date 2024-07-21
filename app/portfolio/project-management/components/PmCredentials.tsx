@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from 'react';
+import styles from "./pm.module.css"
 
 interface Credential {
     id: number;
@@ -27,9 +28,9 @@ const PmCredentials = () => {
         <div className="mb-5 mt-3">
             {/* <h3 className="font-bold mb-4">Credentials:</h3> */}
             <div className="overflow-x-auto">
-                <table className="table">
+                <table className={`table`}>
                     <thead>
-                        <tr>
+                        <tr className="border-line">
                             <th></th>
                             <th>Title</th>
                             <th>Issuer</th>
@@ -37,7 +38,7 @@ const PmCredentials = () => {
                     </thead>
                     <tbody>
                         {credentialsData.map((credential, index) => (
-                            <tr key={credential.id} className="hover">
+                            <tr key={credential.id} className="border-line hover:bg-[var(--jkAccent)] hover:text-white">
                                 <th>{index + 1}</th>
                                 <td>{credential.skill}</td>
                                 <td>{credential.description}</td>

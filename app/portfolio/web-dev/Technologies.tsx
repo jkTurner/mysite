@@ -47,7 +47,7 @@ const Technologies = () => {
                     </TableRow>
                 </TableHeader>
                 <TableBody>
-                    <TableRow>
+                    <TableRow className="border-line hover:bg-[var(--jkAccent)] hover:text-white">
                     <TableCell className=""><ImHtmlFive className="text-2xl" /></TableCell>
                     <TableCell>Markup</TableCell>
                     <TableCell className="text-left">Fundamental language for creating web pages.</TableCell>
@@ -56,7 +56,7 @@ const Technologies = () => {
                 </TableBody>
                 
                 <TableBody>
-                    <TableRow>
+                    <TableRow className="border-line hover:bg-[var(--jkAccent)] hover:text-white">
                     <TableCell className=""><ImCss3 className="text-2xl" /></TableCell>
                     <TableCell>Styling</TableCell>
                     <TableCell className="text-left">Stylesheets used for describing the presentation of web pages.</TableCell>
@@ -64,7 +64,7 @@ const Technologies = () => {
                 </TableBody>
                 
                 <TableBody>
-                    <TableRow>
+                    <TableRow className="border-line hover:bg-[var(--jkAccent)] hover:text-white">
                     <TableCell className=""><SiJavascript className="text-2xl" /></TableCell>
                     <TableCell>Scripting</TableCell>
                     <TableCell className="text-left">A versatile programming language used to make web pages interactive.</TableCell>
@@ -72,7 +72,7 @@ const Technologies = () => {
                 </TableBody>
                 
                 <TableBody>
-                    <TableRow>
+                    <TableRow className="border-line hover:bg-[var(--jkAccent)] hover:text-white">
                     <TableCell className=""><SiReact className="text-2xl" /></TableCell>
                     <TableCell>Frontend Library</TableCell>
                     <TableCell className="text-left">Building user interfaces with reusable components.</TableCell>
@@ -80,7 +80,7 @@ const Technologies = () => {
                 </TableBody>
                 
                 <TableBody>
-                    <TableRow>
+                    <TableRow className="border-line hover:bg-[var(--jkAccent)] hover:text-white">
                     <TableCell className=""><SiNextdotjs className="text-2xl" /></TableCell>
                     <TableCell>Full-stack Framework</TableCell>
                     <TableCell className="text-left">Server-side rendering and static site generation for better performance.</TableCell>
@@ -88,7 +88,7 @@ const Technologies = () => {
                 </TableBody>
 
                 <TableBody>
-                    <TableRow>
+                    <TableRow className="border-line hover:bg-[var(--jkAccent)] hover:text-white">
                     <TableCell className=""><SiTypescript className="text-2xl" /></TableCell>
                     <TableCell>Typing</TableCell>
                     <TableCell className="text-left">Adding static types to JavaScript for better code quality.</TableCell>
@@ -96,7 +96,7 @@ const Technologies = () => {
                 </TableBody>
 
                 <TableBody>
-                    <TableRow>
+                    <TableRow className="border-line hover:bg-[var(--jkAccent)] hover:text-white">
                     <TableCell className=""><SiMongodb className="text-2xl" /></TableCell>
                     <TableCell>Database</TableCell>
                     <TableCell className="text-left">Managing and scaling databases.</TableCell>
@@ -104,7 +104,7 @@ const Technologies = () => {
                 </TableBody>
 
                 <TableBody>
-                    <TableRow>
+                    <TableRow className="border-line hover:bg-[var(--jkAccent)] hover:text-white">
                     <TableCell className=""><SiPrisma className="text-2xl" /></TableCell>
                     <TableCell>ORM</TableCell>
                     <TableCell className="text-left">Prisma: Database toolkit simplifying database interactions with type safety and intuitive queries.</TableCell>
@@ -112,7 +112,7 @@ const Technologies = () => {
                 </TableBody>
 
                 <TableBody>
-                    <TableRow>
+                    <TableRow className="border-line hover:bg-[var(--jkAccent)] hover:text-white">
                     <TableCell className=""><SiPostman className="text-2xl" /></TableCell>
                     <TableCell>API Testing</TableCell>
                     <TableCell className="text-left">Postman: Testing, documenting, and monitoring APIs.</TableCell>
@@ -120,7 +120,7 @@ const Technologies = () => {
                 </TableBody>
 
                 <TableBody>
-                    <TableRow>
+                    <TableRow className="border-line hover:bg-[var(--jkAccent)] hover:text-white">
                     <TableCell className=""><SiDjango className="text-2xl" /></TableCell>
                     <TableCell>Backend</TableCell>
                     <TableCell className="text-left">Creating robust backend services.</TableCell>
@@ -128,7 +128,7 @@ const Technologies = () => {
                 </TableBody>
 
                 <TableBody>
-                    <TableRow>
+                    <TableRow className="border-line hover:bg-[var(--jkAccent)] hover:text-white">
                     <TableCell className=""><SiTailwindcss className="text-2xl" /></TableCell>
                     <TableCell>Styling</TableCell>
                     <TableCell className="text-left">A utility-first CSS framework for rapid UI development.</TableCell>
@@ -136,7 +136,7 @@ const Technologies = () => {
                 </TableBody>
 
                 <TableBody>
-                    <TableRow>
+                    <TableRow className="border-line hover:bg-[var(--jkAccent)] hover:text-white">
                     <TableCell className=""><GiDaisy className="text-2xl" /></TableCell>
                     <TableCell>Components</TableCell>
                     <TableCell className="text-left">Daisy UI: An extension of Tailwind CSS with pre-designed components.</TableCell>
@@ -144,7 +144,7 @@ const Technologies = () => {
                 </TableBody>
 
                 <TableBody>
-                    <TableRow>
+                    <TableRow className="border-line hover:bg-[var(--jkAccent)] hover:text-white">
                     <TableCell className=""><SiShadcnui className="text-2xl" /></TableCell>
                     <TableCell>Components</TableCell>
                     <TableCell className="text-left">Shadcn UI: Pre-designed, highly customizable UI components for React.</TableCell>
@@ -152,7 +152,7 @@ const Technologies = () => {
                 </TableBody>
 
                 <TableBody>
-                    <TableRow>
+                    <TableRow className="border-line hover:bg-[var(--jkAccent)] hover:text-white">
                     <TableCell className=""><SiCloudinary className="text-2xl" /></TableCell>
                     <TableCell>Images & Videos</TableCell>
                     <TableCell className="text-left">Cloudinary: cloud-based service that provides an end-to-end solution for all your image and video management needs.</TableCell>
@@ -160,7 +160,7 @@ const Technologies = () => {
                 </TableBody>
 
                 <TableBody>
-                    <TableRow>
+                    <TableRow className="border-line hover:bg-[var(--jkAccent)] hover:text-white">
                     <TableCell className=""><SiGithub className="text-2xl" /></TableCell>
                     <TableCell>Version Control</TableCell>
                     <TableCell className="text-left">A platform for version control and collaboration.</TableCell>
@@ -168,7 +168,7 @@ const Technologies = () => {
                 </TableBody>
 
                 <TableBody>
-                    <TableRow>
+                    <TableRow className="border-line hover:bg-[var(--jkAccent)] hover:text-white">
                     <TableCell className=""><SiFilezilla className="text-2xl" /></TableCell>
                     <TableCell>FTP Client</TableCell>
                     <TableCell className="text-left">File transfer protocol client for uploading and managing files on a server.</TableCell>
@@ -176,7 +176,7 @@ const Technologies = () => {
                 </TableBody>
 
                 <TableBody>
-                    <TableRow>
+                    <TableRow className="border-line hover:bg-[var(--jkAccent)] hover:text-white">
                     <TableCell className=""><SiFigma className="text-2xl" /></TableCell>
                     <TableCell>Design</TableCell>
                     <TableCell className="text-left">Designing user interfaces and prototypes.</TableCell>
@@ -184,7 +184,7 @@ const Technologies = () => {
                 </TableBody>
 
                 <TableBody>
-                    <TableRow>
+                    <TableRow className="border-line hover:bg-[var(--jkAccent)] hover:text-white">
                     <TableCell className=""><DiPhotoshop className="text-3xl" /></TableCell>
                     <TableCell>Design</TableCell>
                     <TableCell className="text-left">Advanced graphic design and image editing.</TableCell>

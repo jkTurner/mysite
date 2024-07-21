@@ -22,7 +22,7 @@
 }
 
 .area_container {
-    border-bottom: 1px solid var(--line);
+    border-bottom: 1px solid var(--lineTint);
     padding-top: 2.5rem/* 40px */;
     padding-bottom: 2.5rem/* 40px */;
     display: flex;

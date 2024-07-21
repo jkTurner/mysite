@@ -13,7 +13,7 @@
     --textHero: #000;
     --textDetails: #777b83;
     --line: #FFF;
-    --lineTint: #a0a0a0;
+    --lineTint: #c4c4c4;
     --jkAccent: #004285;
     --gradientGold: linear-gradient(to right, #926f34, #dfbd69);
 
@@ -102,7 +102,7 @@ html {
     --textMain: #aeb2b9;
     --textHero: #FFF;
     --line: #40424d;
-    --lineTint: #6e7074;
+    --lineTint: #40424d;
     --bgHeader: #131b25;
     --inputHeader: #383f49;
     --jkAccent: #dbbb6b;
@@ -183,4 +183,9 @@ input, textarea, select {
 
 .text-jkAccent {
   color: var(--jkAccent);
+}
+
+.border-line {
+  border-color: var(--lineTint);
+  /* border-color: var(--line); */
 }

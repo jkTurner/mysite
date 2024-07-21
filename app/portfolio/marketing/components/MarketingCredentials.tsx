@@ -29,7 +29,7 @@ const MarketingCredentials = () => {
             <div className="overflow-x-auto">
                 <table className="table">
                     <thead>
-                        <tr>
+                        <tr className="border-line">
                             <th></th>
                             <th>Title</th>
                             <th>Issuer</th>
@@ -37,7 +37,7 @@ const MarketingCredentials = () => {
                     </thead>
                     <tbody>
                         {credentialsData.map((credential, index) => (
-                            <tr key={credential.id} className="hover">
+                            <tr key={credential.id} className="border-line hover:bg-[var(--jkAccent)] hover:text-white">
                                 <th>{index + 1}</th>
                                 <td>{credential.skill}</td>
                                 <td>{credential.description}</td>
