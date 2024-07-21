@@ -17,7 +17,8 @@ const Navlink = ({item}: NavlinkProps) => {
             <Link
                 href={item.path}
                 className={`${styles.link_container} ${pathName === item.path && styles.active}`}
-                >{capitalAll(item.name)}</Link>
+                >{capitalAll(item.name)}
+            </Link>
         </div>
     )
 }
