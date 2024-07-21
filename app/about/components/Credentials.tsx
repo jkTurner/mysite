@@ -54,7 +54,7 @@ const Credentials = () => {
 
     return (
         <div className="mb-5 mt-3">
-            <h3 className="font-bold mb-4">Credentials:</h3>
+            <h3 className="font-bold mb-4 ml-3">Credentials:</h3>
             <div className="overflow-x-auto">
                 <table className="table">
                     <thead>
