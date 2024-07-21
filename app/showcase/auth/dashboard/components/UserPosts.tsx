@@ -26,7 +26,7 @@ const UserPosts = async ({
     const formattedDate = dateObject.toLocaleDateString("en-US", options);
 
     return (
-        <div className="flex gap-4 p-4 bgSub rounded-md mb-2 w-full">
+        <div className={styles.card_container}>
             {/* image */}
             <div>
                 <div className={styles.thumbnail_image_container}>
