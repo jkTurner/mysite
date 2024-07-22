@@ -34,20 +34,14 @@ const SideMenus = () => {
                     </details>
 
                     <details>
-                        <summary>Real-Time</summary>
-                        <ul>
-                            <li><a>Stock Price Tracker</a></li>
-                            <li><a>Weather Dashboard</a></li>
-                            <li><a>Polling System</a></li>
-                        </ul>
-                    </details>
-
-                    <details>
-                        <summary>State Management</summary>
+                        <summary>Projects</summary>
                         <ul>
                             <li><a>Todo List</a></li>
-                            <li><a>Shopping Cart</a></li>
                             <li><a>Expense Tracker</a></li>
+                            <li><a>Weather Dashboard</a></li>
+                            <li><a>Polling System</a></li>
+                            <li><a>Stock Price Tracker</a></li>
+                            <li><a>Shopping Cart</a></li>
                         </ul>
                     </details>
 
