@@ -3,6 +3,12 @@ import { Paths } from "@/app/lib/Paths";
 import { capitalFirstLetter } from "@/app/lib/utils";
 import styles from "./footerMenu.module.css"
 
+// icons
+import { SiGithub } from "react-icons/si";
+import { SiLinkedin } from "react-icons/si";
+import { SiInstagram } from "react-icons/si";
+
+
 const FooterMenusB = () => {
     return (
         // <div className={`${styles.footer_menu_container} flex flex-col w-[100%] my-10 justify-between`}>
@@ -40,8 +46,19 @@ const FooterMenusB = () => {
                     <a className="link link-hover">Viral Marketing</a>
                 </nav>
             </footer>
-            <div className={`flex justify-end ${styles.copyright}`}>
-                <p>© 2024 Jakkrit Turner. All rights reserved.</p>
+            <div className={`flex justify-between ${styles.copyright} `}>
+                <div className="flex text-xl gap-3 text-[var(--textDetails)]">
+                    <a href="https://github.com/jkTurner" target="_blank" rel="noopener">
+                        <SiGithub className="hover:text-[var(--jkGold)]" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/jakkrit-turner/" target="_blank" rel="noopener">
+                        <SiLinkedin className="hover:text-[var(--jkGold)]" />
+                    </a>
+                    <a href="https://www.instagram.com/joshkturner/" target="_blank" rel="noopener">
+                        <SiInstagram className="hover:text-[var(--jkGold)]" />
+                    </a>
+                </div>
+                <p className="self-end">© 2024 Jakkrit Turner. All rights reserved.</p>
             </div>
         </div>
     )
