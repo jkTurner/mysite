@@ -38,7 +38,7 @@ const QuickContact = () => {
     return (
         <div className={`${styles.outter_container}`}>
             <div className="flex flex-col w-[100%] max-w-[400px]">
-                <h1>Quick Contact</h1>
+                <h1 className="text-[var(--jkGold)]">Quick Contact</h1>
                 <form className="flex flex-col gap-2 mt-2" onSubmit={handleSubmit}>
                     <div className="flex gap-2">
                         <input 

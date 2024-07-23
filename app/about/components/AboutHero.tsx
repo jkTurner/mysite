@@ -55,7 +55,7 @@ const AboutHero = () => {
                 </div>
             </div>
             {/* section 1 */}
-            <div className={`${styles.section1_container} flex flex-row text-justify`}>
+            <div className={`${styles.section1_container} flex flex-row`}>
                 <p>
                     <span className="font-bold">{aboutText.section1_1}</span>
                     {aboutText.section1_2}
