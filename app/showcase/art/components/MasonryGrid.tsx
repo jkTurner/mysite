@@ -3,11 +3,9 @@
 import { useState } from 'react';
 import { galleryData } from "@/data/galleryData";
 import Masonry from 'react-masonry-css';
-import { Modal } from 'react-responsive-modal';
-import 'react-responsive-modal/styles.css';
 import styles from "./galleryImage.module.css";
 import GalleryImage from "./GalleryImage";
-import { GrFormClose } from "react-icons/gr";
+import ImageModal from "./ImageModal";
 import Image from 'next/image';
 
 const breakpointColumnsObj = {
@@ -18,19 +16,17 @@ const breakpointColumnsObj = {
 };
 
 const MasonryGrid = () => {
-    const [open, setOpen] = useState(false);
     const [selectedImage, setSelectedImage] = useState({ image: '', desc: '' });
+    const [showModal, setShowModal] = useState(false);
 
     const onOpenModal = (image: string, desc: string) => {
         setSelectedImage({ image, desc });
-        setOpen(true);
+        setShowModal(true);
     };
 
-    const onCloseModal = () => setOpen(false);
-
-    const closeIcon = (
-        <GrFormClose className='text-white' size={28} />
-    );
+    const onCloseModal = () => {
+        setShowModal(false);
+    };
 
     return (
         <div>
@@ -52,19 +48,13 @@ const MasonryGrid = () => {
                     <div>No images to display</div>
                 )}
             </Masonry>
-            <Modal 
-                open={open} 
-                onClose={onCloseModal} 
-                center 
-                closeIcon={closeIcon}
-                classNames={{
-                    overlay: styles.reactResponsiveModalOverlay,
-                }}>
-                <div className={styles.modal_image_container}>
+
+            {showModal && (
+                <ImageModal onClose={onCloseModal}>
                     <Image src={selectedImage.image} alt={selectedImage.desc} layout="responsive" width={800} height={600} className={styles.modal_image} />
-                </div>
-                <p>{selectedImage.desc}</p>
-            </Modal>
+                    <p className="mt-2">{selectedImage.desc}</p>
+                </ImageModal>
+            )}
         </div>
     );
 };

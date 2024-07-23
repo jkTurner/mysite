@@ -1,6 +1,9 @@
-.reactResponsiveModalOverlay {
-    background: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(5px); 
+.modal_image {
+    max-height: 80vh; /* make sure it doesn't go over screen height so users don't have to scroll */
+    object-fit: contain; /* maintain aspect ratio */
+    width: auto; 
+    display: block;
+    margin: 0 auto; /* Center the image */
 }
 
 .my_masonry_grid {
@@ -28,10 +31,47 @@
     padding: 8px;
 }
 
+.modal_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal_content {
+    background: var(--bgMain);
+    padding: 20px;
+    border-radius: 0;
+    border: 1px solid var(--bgSub);
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.close_button {
+    position: absolute;
+    top: 12px;
+    right: 4px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    line-height: 0;
+}
+
 .modal_image {
-    max-height: 80vh; /* make sure it doesn't go over screen hight so users don't have to scroll */
-    object-fit: contain; /* maintain aspect ratio */
-    width: auto; 
-    display: block;
-    margin: 0 auto; /* Center the image */
+    max-width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
 }
