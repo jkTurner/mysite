@@ -1,7 +1,7 @@
 .hero_bg {
     height: 540px;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.8), rgba(4,9,30,0.8)), url('/images/banner13.png');
+    background-image: linear-gradient(rgba(4,9,30,0.8), rgba(4,9,30,0.8)), url('/images/banner13.jpg');
     background-position: center;
     background-size: cover;
 }
