@@ -191,3 +191,8 @@ input, textarea, select {
   border-color: var(--lineTint);
   /* border-color: var(--line); */
 }
+
+.main_button:hover {
+  background-color: var(--jkAccent);
+  color: white;
+}

@@ -1,6 +1,7 @@
 import styles from "../portfolio.module.css"
 import { PortfolioText as text } from "../components/PortfolioText";
 import Technologies from "./Technologies";
+import Link from "next/link";
 
 const WebDev = () => {
     return (
@@ -8,6 +9,10 @@ const WebDev = () => {
             <h2 className="">Web Development</h2>
 
             <p>{text.web_text_1}</p>
+
+            <Link href="/showcase">
+                <button className={`btn btn-active main_button`}>Showcase</button>
+            </Link>
 
             {/* <p>{text.web_text_2}</p> */}
 
