@@ -56,7 +56,7 @@ export const galleryData = [
     },
     {
         id: "12",
-        image: "/images/art/photo-004.jpg",
+        image: "/images/art/photo-004.JPG",
         desc: "Street Photgraphy"
     },
     {
@@ -91,17 +91,17 @@ export const galleryData = [
     },
     {
         id: "19",
-        image: "/images/art/print-004.JPG",
+        image: "/images/art/print-004.jpg",
         desc: "Business Card Design"
     },
     {
         id: "20",
-        image: "/images/art/print-005.JPG",
+        image: "/images/art/print-005.jpg",
         desc: "Restaurant Menu Design"
     },
     {
         id: "21",
-        image: "/images/art/print-006.JPG",
+        image: "/images/art/print-006.jpg",
         desc: "Restaurant Menu Design"
     },
     {
@@ -116,7 +116,7 @@ export const galleryData = [
     },
     {
         id: "24",
-        image: "/images/art/web-002.jpg",
+        image: "/images/art/web-002.JPG",
         desc: "Web Design"
     },
     {
