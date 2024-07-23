@@ -90,7 +90,7 @@ const CommandGroup = React.forwardRef<
     ref={ref}
     className={cn(
       // "overflow-hidden p-1 text-foreground [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-s [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-muted-foreground",
-      "overflow-hidden p-1 text-foreground [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-sm [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-custom",
+      "overflow-hidden p-1 text-foreground [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-sm [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-[var(--jkAccent)]",
       className
     )}
     {...props}
@@ -119,7 +119,7 @@ const CommandItem = React.forwardRef<
     ref={ref}
     className={cn(
       // "relative flex cursor-default select-none items-center rounded-none px-2 py-1.5 text-sm outline-none data-[disabled=true]:pointer-events-none data-[selected=true]:bg-accent data-[selected=true]:text-accent-foreground data-[disabled=true]:opacity-50",
-      "relative flex cursor-pointer select-none items-center rounded-none px-2 py-1.5 text-sm outline-none data-[disabled=true]:pointer-events-none hover:bg-custom hover:text-accent-foreground data-[disabled=true]:opacity-50",
+      "relative flex cursor-pointer select-none items-center rounded-none px-2 py-1.5 text-sm outline-none data-[disabled=true]:pointer-events-none hover:bg-[var(--jkAccent)] hover:text-accent-foreground data-[disabled=true]:opacity-50 hover:text-white",
       className
     )}
     {...props}

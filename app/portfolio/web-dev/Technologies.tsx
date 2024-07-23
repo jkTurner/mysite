@@ -40,9 +40,9 @@ const Technologies = () => {
                 {/* <TableCaption>A list of your recent invoices.</TableCaption> */}
                 <TableHeader>
                     <TableRow>
-                    <TableHead className="w-[50px] text-center">Tool</TableHead>
-                    <TableHead className={`${styles.skill_topic_column}`}>Area</TableHead>
-                    <TableHead className="text-left">Description</TableHead>
+                        <TableHead className="w-[50px] text-center">Tool</TableHead>
+                        <TableHead className={`${styles.skill_topic_column}`}>Area</TableHead>
+                        <TableHead className="text-left">Description</TableHead>
                     {/* <TableHead className="text-right">Amount</TableHead> */}
                     </TableRow>
                 </TableHeader>
