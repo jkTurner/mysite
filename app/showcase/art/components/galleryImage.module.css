@@ -1,0 +1,37 @@
+.reactResponsiveModalOverlay {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px); 
+}
+
+.my_masonry_grid {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+}
+
+.my_masonry_grid_column {
+    background-clip: padding-box;
+}
+
+.art_item {
+    margin-bottom: 6px;
+    cursor: pointer; 
+}
+
+.art_item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.art_item p {
+    padding: 8px;
+}
+
+.modal_image {
+    max-height: 80vh; /* make sure it doesn't go over screen hight so users don't have to scroll */
+    object-fit: contain; /* maintain aspect ratio */
+    width: auto; 
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
