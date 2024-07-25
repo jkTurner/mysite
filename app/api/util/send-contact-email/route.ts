@@ -21,7 +21,15 @@ export async function POST(request: Request) {
             from: `"${fullName}" <${contactEmail}>`,   // sender address
             to: process.env.RECEIVER_EMAIL,   // list of receivers, just myself for now :)
             subject: `Contact JKTurner: Topic: ${topic}`, 
-            text: `You have received a new message from ${fullName} (${contactEmail}):\n\n${message}`,
+            html: `
+            <p>You have received a new message from <strong>${fullName}</strong></p>
+            <p>Contact info:</p>
+            <ul>
+                <li>Email: ${contactEmail}</li>
+                <li>Number: ${phoneNumber}</li>
+            </ul>
+            <p>${message.replace(/\n/g, '<br>')}</p>
+        `,
         });
 
         console.log('Email sent: %s', info.messageId);
