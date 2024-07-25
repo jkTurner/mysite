@@ -4,7 +4,7 @@ import nodemailer from 'nodemailer';
 export async function POST(request: Request) {
     const { fullName, contactEmail, message } = await request.json();
 
-    // Setup transporter using environment variables
+    // First, Setup transporter using environment variables
     const transporter = nodemailer.createTransport({
         host: process.env.SMTP_HOST,
         port: parseInt(process.env.SMTP_PORT || '587', 10),
@@ -26,6 +26,7 @@ export async function POST(request: Request) {
 
         console.log('Email sent: %s', info.messageId);
         return NextResponse.json({ message: "Email sent successfully" });
+        
     } catch (error) {
         console.error('Error sending email:', error);
         return NextResponse.json({ message: "Error sending email" }, { status: 500 });
