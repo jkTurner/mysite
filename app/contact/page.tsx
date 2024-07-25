@@ -24,7 +24,7 @@ const ContactPage = () => {
 
             <div className="flex justify-center mt-2">           
                 <div className="chat chat-end self-start">
-                    <div className="chat-bubble font-light text-sm">Have a wonderful day, nya! It&apos;s a work in progress, nya. Will be finished soon, nya!</div>
+                    <div className="chat-bubble font-light text-sm">Thank you for your message, I&apos;ll get back to you soon! Have a wonderful day, nya!</div>
                 </div>
                 <div>
                     <Image
