@@ -34,3 +34,4 @@ const ImageModal = ({ children, onClose }: ImageModalProps) => {
 };
 
 export default ImageModal;
+

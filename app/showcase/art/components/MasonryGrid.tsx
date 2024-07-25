@@ -1,4 +1,3 @@
-// File: F:\Projects\Portfolio\jkturner_site\app\showcase\art\components\MasonryGrid.tsx
 "use client"
 import { useState } from 'react';
 import { galleryData } from "@/data/galleryData";
@@ -51,7 +50,8 @@ const MasonryGrid = () => {
 
             {showModal && (
                 <ImageModal onClose={onCloseModal}>
-                    <Image src={selectedImage.image} alt={selectedImage.desc} layout="responsive" width={800} height={600} className={styles.modal_image} />
+                    <Image src={selectedImage.image} alt={selectedImage.desc} 
+                    layout="responsive" width={800} height={600} className={styles.modal_image} />
                     <p className="mt-2">{selectedImage.desc}</p>
                 </ImageModal>
             )}
@@ -60,3 +60,5 @@ const MasonryGrid = () => {
 };
 
 export default MasonryGrid;
+
+
