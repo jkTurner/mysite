@@ -36,12 +36,14 @@ const SideMenus = () => {
                     <details>
                         <summary>Projects</summary>
                         <ul>
-                            <li><a>Todo List</a></li>
+                            <li><a>GoGiddi</a></li>
+                            <li><a>RoboUnity</a></li>
+                            {/* <li><a>Todo List</a></li>
                             <li><a>Expense Tracker</a></li>
                             <li><a>Weather Dashboard</a></li>
                             <li><a>Polling System</a></li>
                             <li><a>Stock Price Tracker</a></li>
-                            <li><a>Shopping Cart</a></li>
+                            <li><a>Shopping Cart</a></li> */}
                         </ul>
                     </details>
 
