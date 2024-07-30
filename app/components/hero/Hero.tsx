@@ -10,9 +10,10 @@ const Hero = () => {
                     <h3><span>CO-</span>CREATED</h3>
                 </div>
             
-                <p>Objectives-driven and results-oriented business administration professional with a strong background 
-                    in project management and marketing seeking a challenging position to contribute expertise in driving 
-                    successful project outcomes and utilizing marketing knowledge to achieve organizational goals.
+                <p>Driven and results-oriented web developer with a strong background in creating dynamic and 
+                    responsive web applications. Seeking a challenging position to leverage expertise in modern 
+                    frameworks like React and Next.js to deliver high-quality web solutions and drive successful 
+                    project outcomes.
                 </p>
                 
                 <a href="" className={styles.hero_btn}>
