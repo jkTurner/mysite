@@ -11,7 +11,6 @@ const TopMenus = () => {
                         <ul className="z-10 bgSub">
                             <li><a href="/showcase/auth/register">Register</a></li>
                             <li><a href="/showcase/auth/login">Login</a></li>
-                            <li><a>Forgot Password</a></li>
                         </ul>
                 </details>
             </li>
