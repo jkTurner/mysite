@@ -21,7 +21,7 @@ const marketingSkillsData: MarketingSkills[] = [
     {
         id: 3,
         skill: 'Emotion',
-        description: "Content that evokes strong emotions is more likely to be shared. High arousal emotions like awe, excitement, amusement, or anger motivate people to share more than low arousal emotions like contentment or sadness.",
+        description: "Content that evokes strong emotions is more likely to be shared. High arousal emotions like amazement, excitement, amusement, or anger motivate people to share more than low arousal emotions like contentment or sadness.",
     },
     {
         id: 4,
