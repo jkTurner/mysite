@@ -1,18 +1,17 @@
 "use client";
 import React, { useState } from 'react';
 
-interface Credential {
+interface MarketingSkills {
     id: number;
     skill: string;
     description: string;
 }
 
-const credentialsData: Credential[] = [
+const marketingSkillsData: MarketingSkills[] = [
     {
         id: 1,
         skill: 'Social Currency',
         description: "People share things that make them look good or enhance their status. Crafting content that makes sharers feel special, knowledgeable, or in-the-know can increase the likelihood of sharing.",
-        // documentUrl: '/files/cert/itil.pdf', 
     },
     {
         id: 2,
@@ -45,7 +44,6 @@ const MarketingSkills = () => {
 
     return (
         <div className="mb-5 mt-3">
-            {/* <h3 className="font-bold mb-4">Credentials:</h3> */}
             <div className="overflow-x-auto">
                 <table className="table">
                     <thead>
@@ -56,7 +54,7 @@ const MarketingSkills = () => {
                         </tr>
                     </thead>
                     <tbody>
-                        {credentialsData.map((credential, index) => (
+                        {marketingSkillsData.map((credential, index) => (
                             <tr key={credential.id} className="border-line hover:bg-[var(--jkAccent)] hover:text-white">
                                 <th>{index + 1}</th>
                                 <td>{credential.skill}</td>

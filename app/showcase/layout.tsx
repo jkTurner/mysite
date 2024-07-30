@@ -5,10 +5,11 @@ import styles from "./showcase.module.css";
 import SideMenus from './components/SideMenus';
 import TopMenus from './components/TopMenus';
 import { AuthProvider } from '../api/components/AuthProvider';
+import { seoData } from '@/data/seoData';
 
 export const metadata: Metadata = {
-    title: "Showcase",
-    description: "A showcase of Jakkrit Turner's skills",
+    title: `${seoData.showcase_title}`,
+    description: `${seoData.showcase_des}`,
 };
 
 interface ShowcaseLayoutProps {

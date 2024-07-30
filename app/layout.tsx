@@ -2,19 +2,20 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import { seoData } from "../data/seoData";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-  subsets: ['latin'], // Adjust subsets as needed
-  display: 'swap', // Optional but recommended for better performance
+  subsets: ['latin'], //  helps to optimize font loading by including only the necessary character sets (latin chars for english)
+  display: 'swap', // initially render text with a fallback font and then switch to the custom font once it has loaded
 });
 
 export const metadata: Metadata = {
-  title: "Jakkrit Turner's Portfolio",
-  description: "Jakkrit Turner's Portfolio",
+  title: `${seoData.index_title}`,
+  description: `${seoData.index_des}`,
 };
 
 export default function RootLayout({
@@ -22,9 +23,9 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
-      {/* <body className={`${poppins.className} h-lvh flex flex-col justify-between`}> */}
       <body className={`${poppins.className} flex flex-col justify-between bgMain`}>
         <Header />
         <div className="flex w-full mx-auto h-[100%]">
@@ -34,4 +35,5 @@ export default function RootLayout({
       </body>
     </html>
   );
+
 }

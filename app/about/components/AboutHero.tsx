@@ -2,10 +2,10 @@ import { Playfair_Display } from "next/font/google";
 import Image from "next/image";
 import styles from "../about.module.css"
 import { aboutText } from "./aboutText";
-import Technologies from "./Technologies";
 import SectionTwo from "./SectionTwo";
 import Link from "next/link";
 import Credentials from "./Credentials";
+import DisplayTech from "./DisplayTech";
 
 const playfair = Playfair_Display({
     weight: ['400', '500', '600', '700', '800', '900'],
@@ -17,19 +17,22 @@ const AboutHero = () => {
     return (
         <div>
             <div className={styles.top_section_container}>
-                <div className="">
+                {/* prevent image deform */}
+                <div>
                     <div className={`${styles.image_container} mx-4`}>
                         <Image
                             src="/images/about/self-img-bw-c.jpg"
-                            alt=""
+                            alt="Jakkrit Turner Image"
                             fill
                             objectFit="cover"
                             objectPosition="center"
                         />
                     </div>
                 </div>
+
                 <div className="mx-8 mt-4">
 
+                    {/* about intro text */}
                     <h1 className={`${playfair.className} text-4xl font-medium textHero`}>
                         {aboutText.greeting}
                     </h1>
@@ -50,10 +53,10 @@ const AboutHero = () => {
                             <button className={`${styles.about_buttons} btn btn-active`}>Showcase</button>
                         </Link>
                     </div>
-                    {/* --------------------------------------- */}
 
-                </div>
+                </div>   
             </div>
+
             {/* section 1 */}
             <div className={`${styles.section1_container} flex flex-row`}>
                 <p>
@@ -62,13 +65,10 @@ const AboutHero = () => {
                 </p>
             </div>
 
-            {/* technologies */}
-            <Technologies />
+            <DisplayTech />
 
-            {/* credentials */}
             <Credentials />
 
-            {/* section 2 */}
             <SectionTwo />
 
         </div>

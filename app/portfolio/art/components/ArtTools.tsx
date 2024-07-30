@@ -13,8 +13,7 @@ const artToolsData: ArtTools[] = [
     {
         id: 1,
         skill: 'Adobe Photoshop',
-        description: 'My most powerful digital art tool for image editing, graphic design, and digital painting.',
-        // documentUrl: '/files/cert/itil.pdf', 
+        description: 'My most powerful digital art tool for image editing, graphic design, and digital painting.', 
     },
     {
         id: 2,
@@ -37,7 +36,6 @@ const ArtTools = () => {
 
     return (
         <div className="mb-5 mt-3">
-            {/* <h3 className="font-bold mb-4">Credentials:</h3> */}
             <div className="overflow-x-auto">
                 <table className="table">
                     <thead>

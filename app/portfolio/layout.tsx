@@ -4,10 +4,11 @@ import type { Metadata } from "next";
 import styles from "./portfolio.module.css"
 import Sidebar from './components/Sidebar';
 import BottomMenu from './components/BottomMenu';
+import { seoData } from '@/data/seoData';
 
 export const metadata: Metadata = {
-    title: "Portfolio",
-    description: "Jakkrit Turner's Portfolio",
+  title: `${seoData.portfolio_title}`,
+  description: `${seoData.portfolio_des}`,
 };
 
 interface PortfolioLayoutProps {

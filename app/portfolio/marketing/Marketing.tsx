@@ -1,7 +1,5 @@
 import styles from "../portfolio.module.css"
 import { PortfolioText as text } from "../components/PortfolioText";
-import Concepts from "./Concepts";
-import Certs from "./Certs";
 import MarketingSkills from "./components/MarketingSkills";
 import MarketingCredentials from "./components/MarketingCredentials";
 

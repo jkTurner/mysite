@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from 'react';
-import styles from "../about.module.css"
 
 interface Credential {
     id: number;
@@ -14,7 +13,6 @@ const credentialsData: Credential[] = [
         id: 1,
         skill: 'IT Service Management',
         description: 'Utilizing best practices from frameworks like ITIL to align IT services with business needs, ensuring efficient and effective service delivery.',
-        // documentUrl: '/files/cert/itil.pdf', 
     },
     {
         id: 2,
@@ -72,7 +70,6 @@ const PmSkills = () => {
 
     return (
         <div className="mb-5 mt-3">
-            {/* <h3 className="font-bold mb-4">Credentials:</h3> */}
             <div className="overflow-x-auto">
                 <table className="table">
                     <thead>

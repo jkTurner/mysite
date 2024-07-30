@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from 'react';
-import styles from "./pm.module.css"
 
 interface Credential {
     id: number;
@@ -13,7 +12,6 @@ const credentialsData: Credential[] = [
         id: 1,
         skill: 'Bachelor of Science in Business Administration with a concentration in Project Management',
         description: "Purdue University Global",
-        // documentUrl: '/files/cert/itil.pdf', 
     },
     {
         id: 2,
@@ -26,7 +24,6 @@ const PmCredentials = () => {
 
     return (
         <div className="mb-5 mt-3">
-            {/* <h3 className="font-bold mb-4">Credentials:</h3> */}
             <div className="overflow-x-auto">
                 <table className={`table`}>
                     <thead>

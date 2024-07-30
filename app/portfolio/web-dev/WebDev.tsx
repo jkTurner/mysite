@@ -14,8 +14,6 @@ const WebDev = () => {
                 <button className={`btn btn-active main_button`}>Showcase</button>
             </Link>
 
-            {/* <p>{text.web_text_2}</p> */}
-
             <div>
                 <Technologies />
             </div>

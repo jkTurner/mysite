@@ -1,13 +1,13 @@
 "use client";
 import React, { useState } from 'react';
 
-interface Credential {
+interface MarketingCredential {
     id: number;
     skill: string;
     description: string;
 }
 
-const credentialsData: Credential[] = [
+const marketingCredentialData: MarketingCredential[] = [
     {
         id: 1,
         skill: 'Viral Marketing and How to Craft Contagious Content',
@@ -36,7 +36,7 @@ const MarketingCredentials = () => {
                         </tr>
                     </thead>
                     <tbody>
-                        {credentialsData.map((credential, index) => (
+                        {marketingCredentialData.map((credential, index) => (
                             <tr key={credential.id} className="border-line hover:bg-[var(--jkAccent)] hover:text-white">
                                 <th>{index + 1}</th>
                                 <td>{credential.skill}</td>

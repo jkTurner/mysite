@@ -9,7 +9,7 @@ const desc4 = "Before diving into the world of web development, project manageme
 
 const Highlights = () => {
     return (
-        // <div className="flex flex-col mx-auto w-[100%]">
+        
         <div className={styles.main_container}>
             <HighlightV1 
                 title="WEB DEVELOPMENT"
@@ -40,6 +40,7 @@ const Highlights = () => {
                 alt="test"
             />
         </div>
+        
     )
 }
 

@@ -13,8 +13,7 @@ const artSkillData: ArtSkills[] = [
     {
         id: 1,
         skill: 'Digital Painting',
-        description: 'Creating digital artwork using digital tools and software, combining traditional painting techniques with modern technology.',
-        // documentUrl: '/files/cert/itil.pdf', 
+        description: 'Creating digital artwork using digital tools and software, combining traditional painting techniques with modern technology.', 
     },
     {
         id: 2,
@@ -42,7 +41,6 @@ const ArtSkills = () => {
 
     return (
         <div className="mb-5 mt-3">
-            {/* <h3 className="font-bold mb-4">Credentials:</h3> */}
             <div className="overflow-x-auto">
                 <table className="table">
                     <thead>

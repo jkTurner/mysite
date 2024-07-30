@@ -1,6 +1,5 @@
 import styles from "../portfolio.module.css"
 import { PortfolioText as text } from "../components/PortfolioText";
-import Skills from "./Skills";
 import PmSkills from "./components/PmSkills";
 import PmCredentials from "./components/PmCredentials";
 
