@@ -10,9 +10,14 @@ const WebDev = () => {
 
             <p>{text.web_text_1}</p>
 
-            <Link href="/showcase">
-                <button className={`btn btn-active main_button`}>Showcase</button>
-            </Link>
+            <div className="flex gap-2">
+                <Link href="/showcase">
+                    <button className={`btn btn-active main_button`}>Showcase</button>
+                </Link>
+                <a href="https://github.com/jkTurner/mysite" target="_blank" rel="noopener">
+                    <button className={`btn btn-active main_button`}>Repository</button>
+                </a>
+            </div>
 
             <div>
                 <Technologies />
