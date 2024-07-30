@@ -13,7 +13,7 @@ const LoginModal = () => {
 
     const handleCreateClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
         if (status === "unauthenticated") {
-            e.preventDefault(); // Prevent default link behavior
+            e.preventDefault();
             setShowLogin(true); // Show login modal
         }
     };
@@ -36,48 +36,3 @@ const LoginModal = () => {
 };
 
 export default LoginModal;
-
-
-
-// // LoginModal.tsx
-// 'use client';
-// import { useState } from 'react';
-// import Modal from './Modal';
-// import LoginForm from './LoginForm';
-// import Link from 'next/link';
-// import { FaCirclePlus } from "react-icons/fa6";
-
-// interface LoginModalProps {
-//     callbackUrl?: string;
-// }
-
-// const LoginModal = ({ callbackUrl }: LoginModalProps) => {
-//     const [showLogin, setShowLogin] = useState(false);
-
-//     const handleCreateClick = (e: React.MouseEvent<HTMLAnchorElement>, status: string) => {
-//         if (status === "unauthenticated") {
-//             e.preventDefault(); // Prevent default link behavior
-//             setShowLogin(true); // Show login modal
-//         }
-//     };
-
-//     return (
-//         <>
-//             <Link href={"/showcase/api/crud/create"} onClick={(e) => handleCreateClick(e, "unauthenticated")}>
-//                 <button className="btn bgSub hover:bgAccent">
-//                     <FaCirclePlus className="text-base" />
-//                     <span>Create</span>
-//                 </button>
-//             </Link>
-//             {showLogin && (
-//                 <Modal onClose={() => setShowLogin(false)}>
-//                     <LoginForm callbackUrl={callbackUrl} />
-//                 </Modal>
-//             )}
-//         </>
-//     );
-// };
-
-// export default LoginModal;
-
-

@@ -41,8 +41,6 @@
 
 .technologies_container {
     border-bottom: 1px solid var(--line);
-    /* display: flex;
-    flex-direction: column; */
 }
 
 .about_buttons:hover {
@@ -54,10 +52,8 @@
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    /* margin: 0 32px; */
     margin-left: 32px;
     margin-right: 32px;
-    /* margin-top: 16px; */
 }
 .section2_header_text {
     font-weight: 700;
@@ -68,7 +64,6 @@
     padding-right: 32px;
     flex-shrink: 0;
     line-height: 40px;
-    /* background-color: brown; */
 }
 .section2_detail_text {
     display: flex;
@@ -94,7 +89,6 @@
         margin-bottom: 20px;
     }
     .section1_container {
-        /* text-align: left; */
         font-size: 15px;
     }
     .section2_container {
@@ -102,15 +96,12 @@
         flex-direction: column;
         align-items: baseline;
         font-size: 15px;
-        /* margin: 40px 32px; */
-        /* margin-top: 16px; */
     }
     .section2_header_text {
         font-weight: 700;
         font-size: 36px;
         width: 100%;
         text-align: center;
-        /* padding-right: 32px; */
         margin-bottom: 20px;
     }
     .section2_detail_text {

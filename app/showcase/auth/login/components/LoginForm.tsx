@@ -92,10 +92,9 @@ const LoginForm = ({ redirected, callbackUrl }: { redirected?: boolean; callback
                         Don&apos;t have an account? <span className="underline">Register</span>
                     </Link>
                 </form>
-                <GoogleLogin callbackUrl={callbackUrl} />
                 
-                {/* <GoogleLogin callbackUrl="/showcase/api/crud/create" /> */}
-                {/* <GoogleLogin /> */}
+                <GoogleLogin callbackUrl={callbackUrl} />
+        
             </div>
         </div>
     )

@@ -13,7 +13,7 @@ const QuickContact = () => {
         setStatus('Sending...');
 
         try {
-            const res = await fetch('/api/util/send-email', { // Ensure this path is correct
+            const res = await fetch('/api/util/send-email', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -40,6 +40,7 @@ const QuickContact = () => {
             <div className="flex flex-col w-[100%] max-w-[400px]">
                 <h1 className="text-[var(--jkGold)]">Quick Contact</h1>
                 <form className="flex flex-col gap-2 mt-2" onSubmit={handleSubmit}>
+                    
                     <div className="flex gap-2">
                         <input 
                             type="text" 
@@ -60,6 +61,7 @@ const QuickContact = () => {
                             required
                         />
                     </div>
+
                     <textarea 
                         placeholder="Message"
                         id="message" 
@@ -68,11 +70,14 @@ const QuickContact = () => {
                         onChange={(e) => setMessage(e.target.value)}
                         required
                     />
+
                     <button type="submit" className={styles.send_button}>
                         <span className={styles.send_button_text}>Send</span>
                         <span className={styles.send_button_fx}></span>
                     </button>
+
                     {status && <p>{status}</p>}
+                    
                 </form>
             </div>
         </div>
@@ -80,51 +85,3 @@ const QuickContact = () => {
 }
 
 export default QuickContact;
-
-
-
-
-
-// import styles from "./quickContact.module.css"
-
-// const QuickContact = () => {
-//     return (
-//         <div className={`${styles.outter_container}`}>
-//             <div className="flex flex-col w-[100%] max-w-[400px]">
-//                 <h1>Quick Contact</h1>
-//                 <form className="flex flex-col gap-2 mt-2">
-//                     <div className="flex gap-2">
-//                         <input 
-//                             type="text" 
-//                             placeholder="Full Name" 
-//                             id="fullName"
-//                             className={styles.form_input} 
-//                         />
-//                         <input 
-//                             type="email" 
-//                             placeholder="Email" 
-//                             id="contactEmail"
-//                             className={styles.form_input} 
-//                         />
-//                     </div>
-                
-//                     <textarea 
-//                         placeholder="Message"
-//                         id="message" 
-//                         className={styles.form_input_message}
-//                     />
-                    
-//                     <button type="submit" className={styles.send_button}>
-//                         <span className={styles.send_button_text}>Send</span>
-//                         <span className={styles.send_button_fx}></span>
-//                     </button>
-
-//                 </form>
-//             </div>
-//         </div>
-//     )
-// }
-
-// export default QuickContact;
-
-

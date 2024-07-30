@@ -11,10 +11,9 @@ const playfair = Playfair_Display({
 const SectionTwo = () => {
     return (
         <div className="flex flex-col">
-            {/* <div className="flex flex-row items-baseline my-10 mt-16"> */}
 
             <div className={`${styles.section2_container} mt-10`}>
-                {/* within my portfolio */}
+                {/* "In the showcase section," */}
                 <div className={`${playfair.className} ${styles.section2_header_text}`}>
                     {aboutText.section2_1}
                 </div>
@@ -33,7 +32,6 @@ const SectionTwo = () => {
                 </div>
             </div>
 
-            
             <div className={`${styles.end_text_container} flex justify-center`}>
                 {aboutText.end}
             </div>

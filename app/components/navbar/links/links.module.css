@@ -6,8 +6,6 @@
 .links_container {
     display: flex;
     gap: 16px;
-    /* background-color: blueviolet; */
-    /* font-weight: 300; */
 }
 
 .mobileLinks {
@@ -19,15 +17,6 @@
 }
 
 @media (max-width: 768px){
-    /* .nav_container {
-        position: fixed;
-        background-color: #103a69;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: 0;
-        text-align: left;
-    } */
     .links_container {
         display: none;
     }
@@ -44,7 +33,6 @@
         right: 0;
         min-width: 240px;
         height: calc(100vh - 40px);
-        /* background-color: var(--bgThird); */
         color: var(--textMain);
         display: flex;
         flex-direction: column;
@@ -57,7 +45,6 @@
         justify-content: flex-end;
         align-items: center;
         width: 100%;
-        /* padding-right: 10px; */
     }
 }
 

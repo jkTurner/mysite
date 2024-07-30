@@ -1,12 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import { seoData } from "../data/seoData";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 
-// const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   subsets: ['latin'], //  helps to optimize font loading by including only the necessary character sets (latin chars for english)

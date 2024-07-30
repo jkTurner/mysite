@@ -12,15 +12,6 @@ const TopMenus = () => {
                             <li><a href="/showcase/auth/register">Register</a></li>
                             <li><a href="/showcase/auth/login">Login</a></li>
                             <li><a>Forgot Password</a></li>
-                            {/* <li>
-                            <details>
-                                <summary>Parent</summary>
-                                <ul>
-                                <li><a>item 1</a></li>
-                                <li><a>item 2</a></li>
-                                </ul>
-                            </details>
-                            </li> */}
                         </ul>
                 </details>
             </li>

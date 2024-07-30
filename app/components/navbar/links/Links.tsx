@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import styles from "./links.module.css";
 import Navlink from "../navlink/NavLink";
 import { MdOutlineMenu } from "react-icons/md";
-import { Paths } from "@/app/lib/Paths";
+import { Paths } from "@/data/Paths";
 
 const Links = () => {
   const [open, setOpen] = useState(false);
@@ -37,6 +37,7 @@ const Links = () => {
 
   return (
     <div className={styles.nav_container} ref={menuRef}>
+      
       {/* Normal navbar */}
       <div className={styles.links_container}>
         {Paths.map((link) => (

@@ -1,40 +1,70 @@
 import Link from "next/link";
-import styles from "./footerMenu.module.css"
-import { Paths } from "@/app/lib/Paths";
+import { Paths } from "@/data/Paths";
 import { capitalFirstLetter } from "@/app/lib/utils";
+import styles from "./footerMenu.module.css"
+// icons
+import { SiGithub } from "react-icons/si";
+import { SiLinkedin } from "react-icons/si";
+import { SiInstagram } from "react-icons/si";
 
 const FooterMenus = () => {
     return (
-        <div className="flex flex-col w-[100%] my-10 justify-between">
-            <div className="flex w-[100%] mb-6 justify-between">
-                <div className="flex flex-col gap-2">
-                    <h1>SITE MAP</h1>
+        <div className={`${styles.footer_menu_container} flex flex-col my-10 justify-between`}>
+
+            {/* links section */}
+            <footer className={`${styles.footer_menu} flex w-[100%] mb-6 justify-between textDetails self-center`}>
+
+                {/* sitemap */}
+                <nav className="flex flex-col gap-2">
+                    <h6 className="footer-title hover:text-[var(--jkGold)] hover:opacity-100">SITE MAP</h6> 
                     {Paths.map((link, index) => (
-                        <Link key={index} href={link.path}
-                            className="text-[#777b83]">
-                            {capitalFirstLetter(link.name)}
-                        </Link>
+                            <Link key={index} href={link.path}
+                                className="link link-hover">
+                                {capitalFirstLetter(link.name)}
+                            </Link>
                     ))}
+                </nav> 
+
+                {/* showcase */}
+                <nav className="flex flex-col gap-2">
+                    <Link href="/showcase">
+                        <h6 className="footer-title hover:text-[var(--jkGold)] hover:opacity-100">SHOWCASE</h6> 
+                    </Link>
+                    <a href="/showcase/auth/register" className="link link-hover">Authentication</a>
+                    <a href="/showcase/api/crud" className="link link-hover">Api / CRUD</a>
+                    <a className="link link-hover">Projects</a>
+                    <a href="/showcase/art" className="link link-hover">Art</a>
+                </nav> 
+
+                {/* credentials */}
+                <nav className="flex flex-col gap-2">
+                    <Link href="/about#credentials">
+                        <h6 className="footer-title hover:text-[var(--jkGold)] hover:opacity-100">CREDENTIALS</h6> 
+                    </Link>
+                    <a className="link link-hover">ITIL Foundation</a>
+                    <a className="link link-hover">IBM AI Fundamental</a>
+                    <a className="link link-hover">Marketing Analytics</a>
+                    <a className="link link-hover">Viral Marketing</a>
+                </nav>
+
+            </footer>
+
+            {/* copyright section */}
+            <div className={`flex justify-between ${styles.copyright} `}>
+                <div className="flex text-xl gap-3 text-[var(--textDetails)]">
+                    <a href="https://github.com/jkTurner" target="_blank" rel="noopener">
+                        <SiGithub className="hover:text-[var(--jkGold)]" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/jakkrit-turner/" target="_blank" rel="noopener">
+                        <SiLinkedin className="hover:text-[var(--jkGold)]" />
+                    </a>
+                    <a href="https://www.instagram.com/joshkturner/" target="_blank" rel="noopener">
+                        <SiInstagram className="hover:text-[var(--jkGold)]" />
+                    </a>
                 </div>
-                <div className="flex flex-col gap-2">
-                    <h1>SHOWCASE</h1>
-                    <p>authentication</p>
-                    <p>api / fetch / display</p>
-                    <p>real-time</p>
-                    <p>state management</p>
-                    <p>GraphQL</p>
-                </div>
-                <div className="flex flex-col gap-2">
-                    <h1>CREDENTIALS</h1>
-                    <p>ITIL Foundation</p>
-                    <p>Marketing Analytics</p>
-                    <p>Viral Marketing & Contagious Content</p>
-                    <p>IBM AI Fundamental</p>
-                </div>
+                <p className="self-end">© 2024 Jakkrit Turner. All rights reserved.</p>
             </div>
-            <div className={`flex justify-end ${styles.copyright}`}>
-                <p>© 2024 Jakkrit Turner. All rights reserved.</p>
-            </div>
+
         </div>
     )
 }

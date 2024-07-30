@@ -17,7 +17,6 @@ export default function Details() {
     <Collapsible
       open={isOpen}
       onOpenChange={setIsOpen}
-      // className="w-[550px] space-y-2"
       className={styles.details_container}
     >
       <div className="flex items-center justify-center px-4">
@@ -32,7 +31,6 @@ export default function Details() {
         </CollapsibleTrigger>
       </div>
       <CollapsibleContent className="space-y-2">
-        {/* <div className="rounded-md px-4 py-2 text-sm text-justify"> */}
         <div className={styles.details_text}>
           <div>
             The creation of this login form showcases my skills in building secure and user-friendly authentication systems using React, Next.js, NextAuth, and Prisma Client.

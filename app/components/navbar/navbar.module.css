@@ -1,7 +1,5 @@
 .nav_menu {
     position: fixed;
-    /* display: flex; */
-    /* flex-direction: column; */
     background-color: #103a69;
     height: 100vh;
     width: 200px;

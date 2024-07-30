@@ -22,22 +22,7 @@ export interface DrugType {
 
     createdAt: string;
     updatedAt: string;
-  }
-
-// export interface DrugType {
-//     id: string;
-//     title: string;
-//     catName?: string;
-//     content: string;
-//     storage?: string;
-//     imageUrl?: string;
-//     publicId?: string;
-//     createdAt: string;
-//     authorEmail: string;
-//     author: {
-//         name: string;
-//     };
-// };
+}
 
 export interface DrugTypeX {
     id: string;
@@ -52,7 +37,7 @@ export interface DrugTypeX {
     author: User;
     createdAt: Date;
     updatedAt: Date;
-  }
+}
 
   export interface User {
     email: string;
@@ -60,8 +45,7 @@ export interface DrugTypeX {
     image?: string;
     publicId?: string;
     password?: string;
-    accounts?: Account[];  // Add this line
-    // other fields if necessary
+    accounts?: Account[];
 }
 
 export interface Account {
@@ -80,31 +64,3 @@ export interface Account {
   createdAt: string;
   updatedAt: string;
 }
-
-
-
-//   export interface DrugType {
-//     id: string;
-//     title: string;
-//     content: string;
-//     storage?: string;
-//     imageUrl?: string;
-//     publicId?: string;
-//     catName?: string;
-//     category?: {
-//       catName: string;
-//     };
-//     author: {
-//       name: string;
-//       email: string;
-//     };
-//     createdAt: string;
-//     updatedAt: string;
-//   }
-
-// F:\Projects\Portfolio\jkturner_site\app\types\types.ts
-
-// export interface DrugCategory {
-//     id: string;
-//     catName: string;
-//   }

@@ -33,16 +33,6 @@ const ContactInfo = () => {
                 <SiInstagram className="text-[20px]" />
                 <p className={styles.contact_info_text}>joshkturner</p>
             </div>
-
-            {/* <div className="overflow-x-auto">
-                <table className="table text-left">
-                    <tr className="hover">
-                        <td className=""><IoPerson className="text-[18px]" /></td>
-                        <td className="text-left">Jakkrit Turner</td>
-                    </tr>
-                </table>
-            </div> */}
-
         </div>
     )
 }

@@ -4,7 +4,6 @@
 
 .layout {
     display: grid;
-    /* grid-template-columns: repeat(5, minmax(0, 1fr)); */
     grid-template-columns: 200px 1fr;
     gap: 1rem;
     max-width: 1280px;
@@ -14,7 +13,6 @@
 
 .sidebar {
     border-right: 1px solid var(--line);
-    /* position: fix; */
 }
 
 .bottom_menu {
@@ -23,8 +21,8 @@
 
 .area_container {
     border-bottom: 1px solid var(--lineTint);
-    padding-top: 2.5rem/* 40px */;
-    padding-bottom: 2.5rem/* 40px */;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -35,12 +33,10 @@
 }
 .area_container h2 {
     font-size: 20px;
-    /* color: hsl var(--custom); */
     color: var(--jkAccent);
 }
 
 .command {
-    /* background-color: var(--bgSub); */
     background-color: transparent;
 }
 
@@ -52,7 +48,6 @@
     .layout {
         display: grid;
         grid-template-columns: 1fr;
-        /* gap: 1rem; */
         max-width: 1280px;
         width: 100%;
         margin: 0 auto;

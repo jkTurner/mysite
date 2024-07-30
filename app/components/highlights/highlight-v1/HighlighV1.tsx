@@ -28,7 +28,6 @@ const HighlightV1 = ({ title, desc, image, link, alt }: HighlightType) => {
                             alt={alt}
                             className={styles.image_style}
                             fill
-                            // sizes="50vw"
                             priority    
                         />
                     </div>

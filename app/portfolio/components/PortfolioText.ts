@@ -1,5 +1,3 @@
-
-
 export const PortfolioText = {
     web_text_1: "With two years of web development experience, I've built a solid foundation in creating dynamic and responsive web applications. I started with HTML and CSS, which gave me the basics of web design. Then, I moved on to JavaScript and Django, where I learned how the frontend and backend connect. Getting into React.js was a game-changer for me. It helped me build complex and interactive user interfaces, and I picked up important skills like state management, data fetching, authentication, and working with APIs. Along the way, I’ve continually added new tools and technologies to my toolkit to keep up with the latest trends.",
     web_text_2: "Getting into React.js was a game-changer for me. It helped me build complex and interactive user interfaces, and I picked up important skills like state management, data fetching, authentication, and working with APIs. Along the way, I’ve continually added new tools and technologies to my toolkit to keep up with the latest trends.",

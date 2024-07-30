@@ -7,31 +7,17 @@
 .highlight_container {
     max-width: 1280px;
     margin: 40px auto;
-    /* height: 360px; */
-    /* padding: 30px 0; */
     display: grid;
     grid-template-columns: 50% 50%;
-    /* background-color: rgb(100, 58, 50); */
 }
-
-/* .highlight_container {
-    max-width: 1280px;
-    margin: 0 auto;
-    height: 360px;
-    display: grid;
-    grid-template-columns: 50% 50%;
-}  */
-/* background-color: rgb(252, 233, 210); */
 
 .text_container {
     display: flex;
-    /* width: 100%; */
     flex-direction: column;
     justify-content: center;
     text-align: left;
     padding-left: 25px;
     padding-right: 50px;
-    /* background-color: brown; */
 }
 .text_container h3 {
     font-size: 28px;
@@ -53,13 +39,9 @@
     aspect-ratio: 6/3;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    /* background-color: red; */
-    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); */
-    /* background-color: rgb(189, 223, 255); */
 }
 
 .image_style {
-    /* max-width: 400px; */
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     object-fit: cover;
     object-position: center;
@@ -74,20 +56,10 @@
         display: flex;
         height: auto;
         align-self: center;
-        /* padding-right: 30px; */
-        /* margin-right: 30px; */
         margin: 0 20px;
         aspect-ratio: 6/3;
         overflow: hidden;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        /* background-color: red; */
-        /* position: relative;
-        align-self: center;
-        justify-self: center;
-        height: 200px;
-        aspect-ratio: 6/3;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        background-color: red; */
     }
 }
 
@@ -98,7 +70,6 @@
     }
     .text_container p {
         font-size: 13px;
-        /* font-weight: 700; */
     }
 }
 
@@ -106,12 +77,8 @@
     .highlight_container {
         max-width: 1280px;
         margin: 40px auto 0 auto;
-        /* height: 360px; */
-        /* padding: 30px 0; */
         display: flex;
         flex-direction: column-reverse;
-        /* grid-template-columns: 50% 50%; */
-        /* background-color: rgb(100, 58, 50); */
     }
     .image_link {
         align-self: auto;
@@ -119,16 +86,12 @@
     .image_container {
         position: relative;
         display: flex;
-        /* height: 200px; */
         width: 100%;
         align-self: center;
-        /* padding-right: 30px; */
-        /* margin-right: 30px; */
         margin: 0;
         aspect-ratio: 6/3;
         overflow: hidden;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        /* background-color: red; */
     }
     .text_container {
         margin-bottom: 20px;
@@ -140,7 +103,6 @@
         text-align: left;
         padding-right: 25px;
         padding-left: 25px;
-        /* background-color: yellowgreen; */
     }
     .text_container h3 {
         font-size: 24px;
@@ -148,7 +110,6 @@
     }
     .text_container p {
         font-size: 13px;
-        /* font-weight: 700; */
     }
     .text_container a {
         font-size: 13px;
