@@ -3,7 +3,7 @@
     object-fit: contain; /* maintain aspect ratio */
     width: auto; 
     display: block;
-    margin: 0 auto; /* Center the image */
+    margin: 0 auto; /* center the image */
 }
 
 .my_masonry_grid {

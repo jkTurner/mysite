@@ -1,5 +1,3 @@
-// working before output = exporot ---------------------------
-
 import prisma from "@/lib/prismadb";
 import { NextResponse } from "next/server";
 
@@ -29,6 +27,3 @@ export async function GET(request: Request, {params}: {params: {catName: string}
         }
     }
 }
-
-
-

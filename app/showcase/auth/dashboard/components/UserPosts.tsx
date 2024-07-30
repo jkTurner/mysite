@@ -77,4 +77,3 @@ const UserPosts = async ({
 }
 
 export default UserPosts;
-

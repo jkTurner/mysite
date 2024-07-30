@@ -25,7 +25,3 @@ const Avatar = ({image}: {image: string}) => {
 }
 
 export default Avatar;
-
-
-
-// src="/images/profile/card-img-001.png"

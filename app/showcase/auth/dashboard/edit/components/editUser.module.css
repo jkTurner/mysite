@@ -25,7 +25,6 @@
 }
 
 .cloudinary {
-    /* background-color: hsl(var(--custom)); */
     position: relative;
     display: flex;
     justify-content: center;

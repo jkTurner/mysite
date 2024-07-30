@@ -11,30 +11,22 @@
     object-fit: cover;
     overflow-clip-margin: unset;
     background-color: white;
-    /* object-position: center top; */
 }
 
 .editable {
     display: flex;
     flex-direction: row-reverse;
-    /* background-color: aqua; */
     gap: 10px;
     width: full;
     align-items: center;
-    /* border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px; */
     overflow: hidden;
-    /* padding-bottom: 14px; */
-    /* padding-right: 34px; */
     font-size: 13px;
     text-decoration: underline;
     margin-bottom: 8px;
-    /* background-color: brown; */
 }
 
 .post_container {
     display: grid;
-    /* grid-template-columns: 1fr; */
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
     width: full;
@@ -60,11 +52,6 @@
 .card_container {
     width: 100%;
     border-radius: 16px;
-    /* border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px; */
-    /* position: relative;
-    display: flex;
-    flex-direction: column;*/
 }
 
 .create_button:hover {
@@ -116,5 +103,4 @@
 
 .current_page {
     background-color: var(--bgSelected);
-    /* color: white; */
 }

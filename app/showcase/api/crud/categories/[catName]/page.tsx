@@ -1,5 +1,3 @@
-// works before output = export ----------------
-
 import { DrugType } from "@/app/types/types";
 import styles from "../../components/drugsList.module.css"
 import DrugsInCategory from "../components/DrugsInCategory";
@@ -62,14 +60,3 @@ const CategoryPosts = async ({ params }: { params: { catName: string } }) => {
 };
 
 export default CategoryPosts;
-
-
-
-
-
-                            // <div key={post.id} className="post">
-                            //     <h2>{post.title}</h2>
-                            //     <p>{post.content}</p>
-                            //     <p><strong>Storage:</strong> {post.storage}</p>
-                            //     <p><strong>Author:</strong> {post.author.name}</p>
-                            // </div>
