@@ -8,7 +8,7 @@ import Footer from "./components/footer/Footer";
 const poppins = Poppins({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   subsets: ['latin'], //  helps to optimize font loading by including only the necessary character sets (latin chars for english)
-  display: 'swap', // initially render text with a fallback font and then switch to the custom font once it has loaded
+  display: 'swap', // initially render text with a fallback font and then switch to the custom font once it has loaded.
 });
 
 export const metadata: Metadata = {
