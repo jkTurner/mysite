@@ -13,9 +13,13 @@ const findingsData: Findings[] = [
         description: "Explore how to create, read, update, and delete data efficiently.",
     },
     {
-        topic: "Projects",
-        description: "Check out smaller projects such as a to-do list, weather dashboard, polling system, and expense tracker, each showcasing practical applications of my skills.",
+        topic: "Full-Scale Projects",
+        description: "Explore my collection of full-scale projects, showcasing a variety of web applications. These projects cover a range of technologies and demonstrate my ability to design, develop, and deploy robust solutions. From applications with authentication and CRUD operations to dynamic websites, each project highlights my skills in building scalable and efficient web solutions.",
     },
+    {
+        topic: "Feature Highlights",
+        description: "In addition to full-scale projects, here are some smaller React functionalities and components I've developed. These examples demonstrate specific features and techniques, such as search filters, to-do lists, and more."
+    }
 ];
 
 const Findings = () => {

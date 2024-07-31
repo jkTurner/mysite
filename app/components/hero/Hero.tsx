@@ -10,10 +10,7 @@ const Hero = () => {
                     <h3><span>CO-</span>CREATED</h3>
                 </div>
             
-                <p>Driven and results-oriented web developer with a strong background in creating dynamic and 
-                    responsive web applications. Seeking a challenging position to leverage expertise in modern 
-                    frameworks like React and Next.js to deliver high-quality web solutions and drive successful 
-                    project outcomes.
+                <p>Web developer with a strong background in creating dynamic and responsive web applications. Driven and results-oriented, with expertise in modern frameworks like React and Next.js, seeking a position to leverage these skills and deliver high-quality web solutions that drive successful project outcomes.
                 </p>
                 
                 <a href="" className={styles.hero_btn}>
