@@ -31,6 +31,17 @@ const TopMenus = () => {
                         </ul>
                 </details>
             </li>
+
+            <li>
+                <details>
+                    <summary>Project</summary>
+                        <ul className="z-10 bgSub">
+                            <li><a href="/showcase/highlights/search-filter">Search Filter</a></li>
+                            <li><a href="/showcase/highlights/todo-list">Todo List</a></li>
+                        </ul>
+                </details>
+            </li>
+
             <li><a href="/showcase/art">Art</a></li>
             </ul>
         </div>

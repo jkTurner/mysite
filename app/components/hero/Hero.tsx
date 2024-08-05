@@ -13,7 +13,7 @@ const Hero = () => {
                 <p>Web developer with a strong background in creating dynamic and responsive web applications. Driven and results-oriented, with expertise in modern frameworks like React and Next.js, seeking a position to leverage these skills and deliver high-quality web solutions that drive successful project outcomes.
                 </p>
                 
-                <a href="" className={styles.hero_btn}>
+                <a href="/files/resume/Jakkrit Turner Resume.pdf" target="_blank" rel="noopener" className={styles.hero_btn}>
                     <span className={styles.hero_btn_text}>Download Resume</span>
                     <span className={styles.hero_btn_fx}></span>
                 </a>

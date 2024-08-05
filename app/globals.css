@@ -196,3 +196,14 @@ input, textarea, select {
   background-color: var(--jkAccent);
   color: white;
 }
+
+.defaultInput {
+  padding: 8px 16px;
+  background-color: var(--bgSub);
+  border-radius: 8px;
+}
+.defaultCard {
+  padding: 8px 16px;
+  background-color: var(--bgSub);
+  border-radius: 8px;
+}

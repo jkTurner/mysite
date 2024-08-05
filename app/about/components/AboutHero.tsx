@@ -45,7 +45,9 @@ const AboutHero = () => {
 
                     {/* 3 buttons */}
                     <div className="mt-10 flex gap-2 flex-wrap">
-                        <button className={`btn btn-active ${styles.about_buttons}`}>Download Resume</button>
+                        <a href="/files/resume/Jakkrit Turner Resume.pdf" target="_blank" rel="noopener">
+                            <button className={`btn btn-active ${styles.about_buttons}`}>Download Resume</button>
+                        </a>
                         <Link href="/portfolio">
                             <button className={`${styles.about_buttons} btn btn-active`}>Portfolio</button>
                         </Link>

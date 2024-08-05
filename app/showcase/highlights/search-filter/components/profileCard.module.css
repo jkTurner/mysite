@@ -1,0 +1,14 @@
+.profile_image_container {
+    position: relative;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    overflow: hidden;
+}
+
+.profile_image {
+    object-fit: cover;
+    overflow-clip-margin: unset;
+    background-color: white;
+    border-radius: 100%;
+}

@@ -27,6 +27,14 @@ const SideMenus = () => {
                         </ul>
                     </details>
 
+                    <details>
+                        <summary>Feature Highlights</summary>
+                        <ul>
+                            <li><a href="/showcase/highlights/search-filter">Search Filter</a></li>
+                            <li><a href="/showcase/highlights/todo-list">Todo List</a></li>
+                        </ul>
+                    </details>
+
                 </li>
                 <li><a href="/showcase/art">Art</a></li>
             </ul>
