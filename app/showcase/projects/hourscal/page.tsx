@@ -14,7 +14,7 @@ const HoursCalPage = () => {
 
             <h3>Information We Collect</h3>
             <p>
-            We do not collect any personal information from you directly. The App functions entirely on your device, and all data you input is stored locally on your device. This data includes:
+            <span className="text-[var(--jkAccent)]">We do not collect</span> any personal information from you directly. The App functions entirely on your device, and all data you input is stored locally on your device. This data includes:
             </p>
 
             <table className="table">
