@@ -22,7 +22,7 @@ const SideMenus = () => {
                     <details>
                         <summary>Projects</summary>
                         <ul>
-                            <li><a href="/showcase/projects/hourscal">HoursCal</a></li>
+                            <li><a href="/showcase/projects/precisionflow">PrecisionFlow</a></li>
                             <li><a>GoGiddi</a></li>
                             <li><a>RoboUnity</a></li>
                         </ul>

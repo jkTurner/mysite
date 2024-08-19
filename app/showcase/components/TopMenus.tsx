@@ -26,6 +26,7 @@ const TopMenus = () => {
                 <details>
                     <summary>Project</summary>
                         <ul className="z-10 bgSub">
+                            <li><a href="/showcase/projects/precisionflow">PrecisionFlow</a></li>
                             <li><a>GoGiddi</a></li>
                             <li><a>RoboUnity</a></li>
                         </ul>

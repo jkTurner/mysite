@@ -1,15 +1,15 @@
 
 
-const HoursCalPage = () => {
+const PrecisionFlowPage = () => {
     return (
         <div className="flex flex-col gap-5">
-            <h1 className="font-bold text-2xl">HoursCal</h1>
+            <h1 className="font-bold text-2xl">PrecisionFlow</h1>
             <h2>Privacy Policy</h2>
 
             <p>EffectiveDate: August 17, 2024</p>
             <h3>Introduction</h3>
             <p>
-            HoursCal is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and share information about you when you use our mobile application, HoursCal (&quot;the App&quot;). By using the App, you agree to the collection and use of information in accordance with this policy.
+            PrecisionFlow is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and share information about you when you use our mobile application, PrecisionFlow (&quot;the App&quot;). By using the App, you agree to the collection and use of information in accordance with this policy.
             </p>
 
             <h3>Information We Collect</h3>
@@ -46,7 +46,7 @@ const HoursCalPage = () => {
 
             <h3>Data Sharing</h3>
             <p>
-            HoursCal does not share your data with any third parties. As your data is stored locally on your device, any sharing of data is initiated by you through exporting or manually sharing content.
+            PrecisionFlow does not share your data with any third parties. As your data is stored locally on your device, any sharing of data is initiated by you through exporting or manually sharing content.
             </p>
 
             <h3>Third-Party Services</h3>
@@ -61,7 +61,7 @@ const HoursCalPage = () => {
 
             <h3>Children’s Privacy</h3>
             <p>
-            HoursCal is not intended for use by children under the age of 13. We do not knowingly collect any personal information from children.
+            PrecisionFlow is not intended for use by children under the age of 13. We do not knowingly collect any personal information from children.
             </p>
 
             <h3>Changes to This Privacy Policy</h3>
@@ -72,7 +72,7 @@ const HoursCalPage = () => {
             
             <h3>Contact Us</h3>
             <p>
-            If you have any questions about this Privacy Policy, please contact us at hourscal-support@jkturner.site.
+            If you have any questions about this Privacy Policy, please contact us at precisionflow-support@jkturner.site.
             </p>
 
 
@@ -80,4 +80,4 @@ const HoursCalPage = () => {
     )
 }
 
-export default HoursCalPage;
+export default PrecisionFlowPage;
